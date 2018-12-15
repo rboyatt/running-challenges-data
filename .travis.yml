@@ -1,13 +1,17 @@
 
 # based on https://jekyllrb.com/docs/continuous-integration/travis-ci/
 language: ruby
-rvm: 2.3.3
+python:
+  - "3.6"
 
 # env:
 #   - EXTENSION_BUILD_ID=$TRAVIS_BUILD_NUMBER EXTENSION_BUILD_VERSION=$TRAVIS_TAG
 
 # before_script:
 #  - ...
+
+install:
+  - pip install -r scripts/requirements.txt
 
 script:
    # Test fetch of the parkrun geo XML & Technical Event Info (both of which get
