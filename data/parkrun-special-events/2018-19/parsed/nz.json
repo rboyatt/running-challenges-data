@@ -1,0 +1,41 @@
+{
+  "Christmas Day": {
+    "date": "2018-12-25",
+    "events": {
+      "Anderson parkrun": "08:00",
+      "Balclutha parkrun": "08:00",
+      "Cornwall parkrun": "09:00",
+      "Dunedin parkrun": "08:00",
+      "Foster parkrun": "08:00",
+      "Hagley parkrun": "08:00",
+      "Hamilton Lake parkrun": "08:00",
+      "Invercargill parkrun": "08:00",
+      "Pegasus parkrun": "08:00",
+      "Porirua parkrun": "09:00",
+      "Puarenga parkrun": "09:00",
+      "Queenstown parkrun": "08:00",
+      "Taupo parkrun": "08:00",
+      "Western Springs parkrun": "08:00",
+      "Whangarei parkrun": "08:00"
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2019-01-01",
+    "events": {
+      "Anderson parkrun": "08:00",
+      "Balclutha parkrun": "09:30",
+      "Cambridge NZ parkrun": "08:00",
+      "Dunedin parkrun": "07:30",
+      "Gisborne parkrun": "09:00",
+      "Hamilton Lake parkrun": "09:30",
+      "Lower Hutt parkrun": "08:00",
+      "Palmerston North parkrun": "09:00",
+      "Pegasus parkrun": "09:30",
+      "Porirua parkrun": "09:30",
+      "Taupo parkrun": "08:00",
+      "Western Springs parkrun": "07:30"
+    },
+    "index": 3
+  }
+}

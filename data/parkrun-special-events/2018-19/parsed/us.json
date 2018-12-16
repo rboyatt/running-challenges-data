@@ -1,0 +1,36 @@
+{
+  "New Year's Day": {
+    "date": "2019-01-01",
+    "events": {
+      "Clermont Waterfront parkrun": "07:30",
+      "College Park parkrun": "10:30",
+      "Depot Park parkrun": "09:00",
+      "Durham NC parkrun": "09:30",
+      "Eagan parkrun": "09:00",
+      "Fletcher's Cove parkrun": "10:30",
+      "Himmel parkrun": "09:00",
+      "Jamaica Pond parkrun": "10:00",
+      "Kensington parkrun": "08:30",
+      "Leakin Park parkrun": "08:30",
+      "Lillie parkrun, Ann Arbor": "10:30",
+      "Livonia parkrun": "08:30",
+      "Moberly parkrun": "09:00",
+      "Renton parkrun": "10:00"
+    },
+    "index": 2
+  },
+  "Thanksgiving": {
+    "date": "2018-11-22",
+    "events": {
+      "Clermont Waterfront parkrun": "07:30",
+      "College Park parkrun": "09:00",
+      "Delaware and Raritan Canal parkrun": "09:00",
+      "Eagan parkrun": "09:00",
+      "Jamaica Pond parkrun": "09:00",
+      "Kensington parkrun": "09:00",
+      "Livonia parkrun": "10:00",
+      "Mountain Goat Trail parkrun": "09:00"
+    },
+    "index": 3
+  }
+}

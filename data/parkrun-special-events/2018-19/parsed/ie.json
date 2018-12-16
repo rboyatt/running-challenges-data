@@ -1,0 +1,50 @@
+{
+  "Christmas Day": {
+    "date": "2018-12-25",
+    "events": {
+      "Ballincollig parkrun": "09:30",
+      "Bere Island parkrun": "10:30",
+      "Johnstown parkrun, Wexford": "10:30",
+      "Limerick parkrun": "09:30",
+      "Malahide parkrun": "10:30",
+      "Navan parkrun": "09:30",
+      "Sligo parkrun": "09:30",
+      "Tralee parkrun": "09:30",
+      "Waterstown parkrun": "09:30"
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2019-01-01",
+    "events": {
+      "Ballincollig parkrun": "09:30",
+      "Bere Island parkrun": "11:00",
+      "Buncrana parkrun": "09:30",
+      "Bushy parkrun, Dublin": "09:30",
+      "Cabinteely parkrun": "11:00",
+      "Claremorris parkrun": "11:00",
+      "Clonmel parkrun": "11:00",
+      "Corkagh parkrun": "11:00",
+      "Erris parkrun": "11:00",
+      "Father Collins parkrun": "11:00",
+      "Griffeen parkrun": "09:30",
+      "Hartstown parkrun": "09:30",
+      "Inch Beach parkrun": "09:00",
+      "Johnstown parkrun, Wexford": "11:00",
+      "Lees Road parkrun": "11:00",
+      "Limerick parkrun": "09:00",
+      "Listowel parkrun": "09:00",
+      "Longford parkrun": "11:00",
+      "Lough Key parkrun": "09:00",
+      "Mullingar parkrun": "09:30",
+      "Poolbeg parkrun": "09:00",
+      "Porterstown parkrun": "11:00",
+      "St Annes parkrun": "09:30",
+      "Strokestown parkrun": "11:00",
+      "Tralee parkrun": "11:00",
+      "Tymon parkrun": "11:00",
+      "Vicarstown parkrun": "09:30"
+    },
+    "index": 3
+  }
+}
