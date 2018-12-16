@@ -19,6 +19,7 @@ script:
    # The wiki page can be slow to load, or missing on occasion, so it would be
    # very useful to cache this away from parkrun's servers.
    - "curl -H 'user-agent: Mozilla/Firefox' https://www.parkrun.org.uk/wp-content/themes/parkrun/xml/geo.xml"
+   - "curl -H 'user-agent: Mozilla/Firefox' https://www.parkrun.org.uk/wp-content/themes/parkrun/xml/geojuniors.xml"
    - "curl -H 'user-agent: Mozilla/Firefox' https://wiki.parkrun.com/index.php/Technical_Event_Information"
 
 # branch whitelist.

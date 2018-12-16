@@ -1,0 +1,2 @@
+# Requirements for parkrun-special-events.py
+bs4
