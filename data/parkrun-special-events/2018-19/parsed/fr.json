@@ -1,0 +1,35 @@
+{
+  "Christmas Day": {
+    "date": "2018-12-25",
+    "events": {
+      "parkrun du Lac de Divonne": {
+        "country_code": "fr",
+        "country_domain": "www.parkrun.fr",
+        "longname": "parkrun du Lac de Divonne",
+        "shortname": "lacdedivonne",
+        "time": "10:00"
+      }
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2019-01-01",
+    "events": {
+      "parkrun de Montsouris": {
+        "country_code": "fr",
+        "country_domain": "www.parkrun.fr",
+        "longname": "parkrun de Montsouris",
+        "shortname": "montsouris",
+        "time": "10:30"
+      },
+      "parkrun de la Ram\u00e9e": {
+        "country_code": "fr",
+        "country_domain": "www.parkrun.fr",
+        "longname": "parkrun de la Ram\u00e9e",
+        "shortname": "laramee",
+        "time": "10:00"
+      }
+    },
+    "index": 3
+  }
+}

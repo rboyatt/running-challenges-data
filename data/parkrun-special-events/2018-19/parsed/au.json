@@ -625,6 +625,13 @@
         "shortname": "toowoomba",
         "time": "07:00"
       },
+      "Torrens parkrun": {
+        "country_code": "au",
+        "country_domain": "www.parkrun.com.au",
+        "longname": "Torrens parkrun",
+        "shortname": "torrens",
+        "time": "08:00"
+      },
       "Traralgon parkrun": {
         "country_code": "au",
         "country_domain": "www.parkrun.com.au",
@@ -1730,6 +1737,13 @@
         "shortname": "victorharbor",
         "time": "09:30"
       },
+      "Victory Heights Trail parkrun": {
+        "country_code": "au",
+        "country_domain": "www.parkrun.com.au",
+        "longname": "Victory Heights Trail parkrun",
+        "shortname": "victoryheightstrail",
+        "time": "07:00"
+      },
       "Wanneroo parkrun": {
         "country_code": "au",
         "country_domain": "www.parkrun.com.au",
@@ -1785,6 +1799,13 @@
         "longname": "White Rock parkrun",
         "shortname": "whiterock",
         "time": "06:30"
+      },
+      "Willoughby parkrun": {
+        "country_code": "au",
+        "country_domain": "www.parkrun.com.au",
+        "longname": "Willoughby parkrun",
+        "shortname": "willoughby",
+        "time": "08:30"
       },
       "Willow parkrun": {
         "country_code": "au",

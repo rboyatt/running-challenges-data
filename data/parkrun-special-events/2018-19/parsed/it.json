@@ -1,0 +1,56 @@
+{
+  "Christmas Day": {
+    "date": "2018-12-25",
+    "events": {
+      "Caffarella parkrun": {
+        "country_code": "it",
+        "country_domain": "www.parkrun.it",
+        "longname": "Caffarella parkrun",
+        "shortname": "caffarella",
+        "time": "10:00"
+      },
+      "Mura di Lucca parkrun": {
+        "country_code": "it",
+        "country_domain": "www.parkrun.it",
+        "longname": "Mura di Lucca parkrun",
+        "shortname": "muradilucca",
+        "time": "09:00"
+      },
+      "Uditore parkrun": {
+        "country_code": "it",
+        "country_domain": "www.parkrun.it",
+        "longname": "Uditore parkrun",
+        "shortname": "uditore",
+        "time": "09:00"
+      }
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2019-01-01",
+    "events": {
+      "Favorita parkrun": {
+        "country_code": "it",
+        "country_domain": "www.parkrun.it",
+        "longname": "Favorita parkrun",
+        "shortname": "favorita",
+        "time": "08:30"
+      },
+      "Foro Italico parkrun": {
+        "country_code": "it",
+        "country_domain": "www.parkrun.it",
+        "longname": "Foro Italico parkrun",
+        "shortname": "foroitalico",
+        "time": "10:30"
+      },
+      "Roma Pineto parkrun": {
+        "country_code": "it",
+        "country_domain": "www.parkrun.it",
+        "longname": "Roma Pineto parkrun",
+        "shortname": "romapineto",
+        "time": "10:30"
+      }
+    },
+    "index": 3
+  }
+}

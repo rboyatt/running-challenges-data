@@ -1,0 +1,28 @@
+{
+  "Christmas Eve": {
+    "date": "2018-12-24",
+    "events": {
+      "Amager F\u00e6lled parkrun": {
+        "country_code": "dk",
+        "country_domain": "www.parkrun.dk",
+        "longname": "Amager F\u00e6lled parkrun",
+        "shortname": "amager",
+        "time": "09:00"
+      }
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2019-01-01",
+    "events": {
+      "Amager F\u00e6lled parkrun": {
+        "country_code": "dk",
+        "country_domain": "www.parkrun.dk",
+        "longname": "Amager F\u00e6lled parkrun",
+        "shortname": "amager",
+        "time": "09:00"
+      }
+    },
+    "index": 3
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Boxing Day": {
+    "date": "2018-12-26",
+    "events": {
+      "Kr\u00e4herwald parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Kr\u00e4herwald parkrun",
+        "shortname": "kraeherwald",
+        "time": "09:00"
+      },
+      "K\u00fcchenholz parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "K\u00fcchenholz parkrun",
+        "shortname": "kuechenholz",
+        "time": "10:00"
+      },
+      "Neckarau parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Neckarau parkrun",
+        "shortname": "neckarau",
+        "time": "10:00"
+      }
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2019-01-01",
+    "events": {
+      "Hasenheide parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Hasenheide parkrun",
+        "shortname": "hasenheide",
+        "time": "10:00"
+      },
+      "Schwanenteich parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Schwanenteich parkrun",
+        "shortname": "schwanenteich",
+        "time": "10:30"
+      }
+    },
+    "index": 3
+  }
+}

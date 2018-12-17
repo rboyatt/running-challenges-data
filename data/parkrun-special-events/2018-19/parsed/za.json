@@ -407,6 +407,13 @@
         "shortname": "navalhill",
         "time": "06:30"
       },
+      "Parys parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Parys parkrun",
+        "shortname": "parys",
+        "time": "09:00"
+      },
       "Polokwane parkrun": {
         "country_code": "za",
         "country_domain": "www.parkrun.co.za",

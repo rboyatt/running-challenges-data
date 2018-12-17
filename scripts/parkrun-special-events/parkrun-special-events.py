@@ -5,36 +5,48 @@ import os
 
 from bs4 import BeautifulSoup
 
-def parse_special_events_table(table, country_code, dates):
+def parse_special_events_table(table, country_code, special_events_data, year):
+
     special_events = dict()
 
+    # Find all of the table rows in the provided table
     table_rows = table.find_all('tr')
-
     print('{} table rows found'.format(len(table_rows)))
 
     if table_rows:
         column_map = dict()
         event_types = dict()
+        # Pop the header row off, and assign the rest to the contents
         header_row = table_rows[0]
+        content_rows = table_rows[1:]
 
         for index, th in enumerate(header_row.find_all('th')):
             column_heading = th.get_text().strip()
+
+            # Find which event this in, taking into account the language barriers
+            # If it is a top level event name, then it is in English and it is fine
+            # to carry on with that, else we iterate through the regional variations
+            # and find which the English equivalent is
+            if column_heading not in special_events_data['translations']:
+                for column, column_translations in special_events_data['translations'].items():
+                    # Do a comparison in the lower case versions
+                    if column_heading.lower() in [c.lower() for c in column_translations] + [column.lower()]:
+                        print('Mapping {} to {}'.format(column_heading, column))
+                        column_heading = column
+
             column_map[column_heading] = index
             # The first two colums contain the event, the later columns contain
             # the events which vary between countries
             if index >= 2:
                 event_types[column_heading] = {
                     'index': index,
-                    'date': dates.get(column_heading, None),
+                    'date': special_events_data.get(column_heading, dict()).get('dates', dict()).get(year),
                     'events': dict()
                 }
-
-
 
         # print(column_map)
         print(event_types)
 
-        content_rows = table_rows[1:]
         print('{} content rows found'.format(len(content_rows)))
         for r in content_rows:
             event_info = {
@@ -71,22 +83,91 @@ def parse_special_events_table(table, country_code, dates):
     return event_types
 
 
-year_details = {
-    'string': '2018-19',
-    'dates': {
-        'Christmas Day': '2018-12-25',
-        'New Year\'s Day': '2019-01-01',
-        'Christmas Eve': '2018-12-24',
-        'Thanksgiving': '2018-11-22'
-    }
+special_events_data = {
+    'Thanksgiving': {
+        'dates': {
+            '2018-19': '2018-11-22'
+        }
+    },
+    'Christmas Eve': {
+        'dates': {
+            '2018-19': '2018-12-24'
+        }
+    },
+    'Christmas Day': {
+        'dates': {
+            '2018-19': '2018-12-25'
+        }
+    },
+    'Boxing Day': {
+        'dates': {
+            '2018-19': '2018-12-26'
+        }
+    },
+    'New Year\'s Day': {
+        'dates': {
+            '2018-19': '2019-01-01'
+        }
+    },
+    'Orthodox Christmas': {
+        'dates': {
+            '2018-19': '2019-01-07'
+        }
+    },
+    'Chinese New Year': {
+        'dates': {
+            '2018-19': '2019-02-05'
+        }
+    },
+    'translations': {
+        'Event': [
+            'Standorte',
+            'Evento',
+            'Lokalizacja',
+            'Забег'
+        ],
+        'Region': [
+            'Område',
+            'Regione',
+            'Регион'
+        ],
+        'Thanksgiving': [
+        ],
+        'Christmas Eve': [
+            'Juledag'
+        ],
+        'Christmas Day': [
+            'Noël',
+            'Natale'
+        ],
+        'Boxing Day': [
+            '2. Weihnachtsfeiertag',
+            'Drugi Dzień Świąt',
+        ],
+        'New Year\'s Day': [
+            'Nytårsdag',
+            'Jour de l\'an',
+            'Neujahr',
+            'Capodanno',
+            'Nowy Rok',
+            'Новый год',
+        ],
+        'Orthodox Christmas': [
+            'Рождество'
+        ],
+        'Chinese New Year': [
+        ]
 
+    }
 }
 
-# Load the entire page, in all its messy glory
+# Make this a parameter at some point, but for now, it's hardcoded
+this_year = '2018-19'
 
 input_files = dict()
+# Load the entire page, in all its messy glory
 
-raw_data_directory = '../../data/parkrun-special-events/{}/raw/'.format(year_details['string'])
+raw_data_directory = '../../data/parkrun-special-events/{}/raw/'.format(this_year)
 for file in os.listdir(raw_data_directory):
     if file.endswith('.html'):
         # String the ending off
@@ -113,7 +194,7 @@ for country_code, raw_file_path in input_files.items():
 
     # Assume it is the only table
     if len(main_table) >= 1:
-        special_events = parse_special_events_table(main_table[0], country_code, year_details['dates'])
+        special_events = parse_special_events_table(main_table[0], country_code, special_events_data, this_year)
 
         # Merge this country's special events into the master list
         for event_type, event_details in special_events.items():
@@ -126,7 +207,7 @@ for country_code, raw_file_path in input_files.items():
             else:
                 all[event_type]['events'].update(event_details['events'])
 
-        with open('../../data/parkrun-special-events/2018-19/parsed/{}.json'.format(country_code), 'w') as FH:
+        with open('../../data/parkrun-special-events/{}/parsed/{}.json'.format(this_year, country_code), 'w') as FH:
             json.dump(special_events, FH, sort_keys=True, indent=2)
     # print(json.dumps(geo_data, sort_keys=True, indent=2))
 
@@ -134,7 +215,7 @@ for country_code, raw_file_path in input_files.items():
 for event_type, event_details in all.items():
     print('{} - {} events'.format(event_type, len(event_details['events'])))
 
-with open('../../data/parkrun-special-events/2018-19/parsed/all.json', 'w') as FH:
+with open('../../data/parkrun-special-events/{}/parsed/all.json'.format(this_year), 'w') as FH:
     json.dump(all, FH, sort_keys=True, indent=2)
 
 # print(soup.prettify())

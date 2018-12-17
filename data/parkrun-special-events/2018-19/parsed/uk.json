@@ -1449,7 +1449,7 @@
         "country_domain": "www.parkrun.org.uk",
         "longname": "St Andrews parkrun",
         "shortname": "standrews",
-        "time": "10:30"
+        "time": "10:00"
       },
       "St Helens parkrun": {
         "country_code": "uk",
@@ -1700,7 +1700,7 @@
         "country_domain": "www.parkrun.org.uk",
         "longname": "Aberbeeg parkrun",
         "shortname": "aberbeeg",
-        "time": "10:00"
+        "time": "10:30"
       },
       "Aberdeen parkrun": {
         "country_code": "uk",

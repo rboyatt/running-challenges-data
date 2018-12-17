@@ -162,6 +162,13 @@
         "shortname": "lowerhutt",
         "time": "08:00"
       },
+      "Millwater parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Millwater parkrun",
+        "shortname": "millwater",
+        "time": "09:30"
+      },
       "Palmerston North parkrun": {
         "country_code": "nz",
         "country_domain": "www.parkrun.co.nz",
