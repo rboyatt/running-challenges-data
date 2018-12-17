@@ -2,48 +2,264 @@
   "Christmas Day": {
     "date": "2018-12-25",
     "events": {
-      "Ballincollig parkrun": "09:30",
-      "Bere Island parkrun": "10:30",
-      "Johnstown parkrun, Wexford": "10:30",
-      "Limerick parkrun": "09:30",
-      "Malahide parkrun": "10:30",
-      "Navan parkrun": "09:30",
-      "Sligo parkrun": "09:30",
-      "Tralee parkrun": "09:30",
-      "Waterstown parkrun": "09:30"
+      "Ballincollig parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Ballincollig parkrun",
+        "shortname": "ballincollig",
+        "time": "09:30"
+      },
+      "Bere Island parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Bere Island parkrun",
+        "shortname": "bereisland",
+        "time": "10:30"
+      },
+      "Johnstown parkrun, Wexford": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Johnstown parkrun, Wexford",
+        "shortname": "johnstown",
+        "time": "10:30"
+      },
+      "Limerick parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Limerick parkrun",
+        "shortname": "limerick",
+        "time": "09:30"
+      },
+      "Malahide parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Malahide parkrun",
+        "shortname": "malahide",
+        "time": "10:30"
+      },
+      "Navan parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Navan parkrun",
+        "shortname": "navan",
+        "time": "09:30"
+      },
+      "Sligo parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Sligo parkrun",
+        "shortname": "sligo",
+        "time": "09:30"
+      },
+      "Tralee parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Tralee parkrun",
+        "shortname": "tralee",
+        "time": "09:30"
+      },
+      "Waterstown parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Waterstown parkrun",
+        "shortname": "waterstown",
+        "time": "09:30"
+      }
     },
     "index": 2
   },
   "New Year's Day": {
     "date": "2019-01-01",
     "events": {
-      "Ballincollig parkrun": "09:30",
-      "Bere Island parkrun": "11:00",
-      "Buncrana parkrun": "09:30",
-      "Bushy parkrun, Dublin": "09:30",
-      "Cabinteely parkrun": "11:00",
-      "Claremorris parkrun": "11:00",
-      "Clonmel parkrun": "11:00",
-      "Corkagh parkrun": "11:00",
-      "Erris parkrun": "11:00",
-      "Father Collins parkrun": "11:00",
-      "Griffeen parkrun": "09:30",
-      "Hartstown parkrun": "09:30",
-      "Inch Beach parkrun": "09:00",
-      "Johnstown parkrun, Wexford": "11:00",
-      "Lees Road parkrun": "11:00",
-      "Limerick parkrun": "09:00",
-      "Listowel parkrun": "09:00",
-      "Longford parkrun": "11:00",
-      "Lough Key parkrun": "09:00",
-      "Mullingar parkrun": "09:30",
-      "Poolbeg parkrun": "09:00",
-      "Porterstown parkrun": "11:00",
-      "St Annes parkrun": "09:30",
-      "Strokestown parkrun": "11:00",
-      "Tralee parkrun": "11:00",
-      "Tymon parkrun": "11:00",
-      "Vicarstown parkrun": "09:30"
+      "Ballincollig parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Ballincollig parkrun",
+        "shortname": "ballincollig",
+        "time": "09:30"
+      },
+      "Bere Island parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Bere Island parkrun",
+        "shortname": "bereisland",
+        "time": "11:00"
+      },
+      "Buncrana parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Buncrana parkrun",
+        "shortname": "buncrana",
+        "time": "09:30"
+      },
+      "Bushy parkrun, Dublin": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Bushy parkrun, Dublin",
+        "shortname": "bushydublin",
+        "time": "09:30"
+      },
+      "Cabinteely parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Cabinteely parkrun",
+        "shortname": "cabinteely",
+        "time": "11:00"
+      },
+      "Claremorris parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Claremorris parkrun",
+        "shortname": "claremorris",
+        "time": "11:00"
+      },
+      "Clonmel parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Clonmel parkrun",
+        "shortname": "clonmel",
+        "time": "11:00"
+      },
+      "Corkagh parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Corkagh parkrun",
+        "shortname": "corkagh",
+        "time": "11:00"
+      },
+      "Erris parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Erris parkrun",
+        "shortname": "erris",
+        "time": "11:00"
+      },
+      "Father Collins parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Father Collins parkrun",
+        "shortname": "fathercollins",
+        "time": "11:00"
+      },
+      "Griffeen parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Griffeen parkrun",
+        "shortname": "griffeen",
+        "time": "09:30"
+      },
+      "Hartstown parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Hartstown parkrun",
+        "shortname": "hartstown",
+        "time": "09:30"
+      },
+      "Inch Beach parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Inch Beach parkrun",
+        "shortname": "inchbeach",
+        "time": "09:00"
+      },
+      "Johnstown parkrun, Wexford": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Johnstown parkrun, Wexford",
+        "shortname": "johnstown",
+        "time": "11:00"
+      },
+      "Lees Road parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Lees Road parkrun",
+        "shortname": "leesroad",
+        "time": "11:00"
+      },
+      "Limerick parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Limerick parkrun",
+        "shortname": "limerick",
+        "time": "09:00"
+      },
+      "Listowel parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Listowel parkrun",
+        "shortname": "listowel",
+        "time": "09:00"
+      },
+      "Longford parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Longford parkrun",
+        "shortname": "longford",
+        "time": "11:00"
+      },
+      "Lough Key parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Lough Key parkrun",
+        "shortname": "loughkey",
+        "time": "09:00"
+      },
+      "Mullingar parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Mullingar parkrun",
+        "shortname": "mullingar",
+        "time": "09:30"
+      },
+      "Poolbeg parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Poolbeg parkrun",
+        "shortname": "poolbeg",
+        "time": "09:00"
+      },
+      "Porterstown parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Porterstown parkrun",
+        "shortname": "porterstown",
+        "time": "11:00"
+      },
+      "St Annes parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "St Annes parkrun",
+        "shortname": "stannes",
+        "time": "09:30"
+      },
+      "Strokestown parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Strokestown parkrun",
+        "shortname": "strokestown",
+        "time": "11:00"
+      },
+      "Tralee parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Tralee parkrun",
+        "shortname": "tralee",
+        "time": "11:00"
+      },
+      "Tymon parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Tymon parkrun",
+        "shortname": "tymon",
+        "time": "11:00"
+      },
+      "Vicarstown parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Vicarstown parkrun",
+        "shortname": "vicarstown",
+        "time": "09:30"
+      }
     },
     "index": 3
   }

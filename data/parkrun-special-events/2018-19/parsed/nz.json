@@ -2,39 +2,201 @@
   "Christmas Day": {
     "date": "2018-12-25",
     "events": {
-      "Anderson parkrun": "08:00",
-      "Balclutha parkrun": "08:00",
-      "Cornwall parkrun": "09:00",
-      "Dunedin parkrun": "08:00",
-      "Foster parkrun": "08:00",
-      "Hagley parkrun": "08:00",
-      "Hamilton Lake parkrun": "08:00",
-      "Invercargill parkrun": "08:00",
-      "Pegasus parkrun": "08:00",
-      "Porirua parkrun": "09:00",
-      "Puarenga parkrun": "09:00",
-      "Queenstown parkrun": "08:00",
-      "Taupo parkrun": "08:00",
-      "Western Springs parkrun": "08:00",
-      "Whangarei parkrun": "08:00"
+      "Anderson parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Anderson parkrun",
+        "shortname": "anderson",
+        "time": "08:00"
+      },
+      "Balclutha parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Balclutha parkrun",
+        "shortname": "balclutha",
+        "time": "08:00"
+      },
+      "Cornwall parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Cornwall parkrun",
+        "shortname": "cornwall",
+        "time": "09:00"
+      },
+      "Dunedin parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Dunedin parkrun",
+        "shortname": "dunedin",
+        "time": "08:00"
+      },
+      "Foster parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Foster parkrun",
+        "shortname": "foster",
+        "time": "08:00"
+      },
+      "Hagley parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Hagley parkrun",
+        "shortname": "hagley",
+        "time": "08:00"
+      },
+      "Hamilton Lake parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Hamilton Lake parkrun",
+        "shortname": "hamiltonlake",
+        "time": "08:00"
+      },
+      "Invercargill parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Invercargill parkrun",
+        "shortname": "invercargill",
+        "time": "08:00"
+      },
+      "Pegasus parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Pegasus parkrun",
+        "shortname": "pegasus",
+        "time": "08:00"
+      },
+      "Porirua parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Porirua parkrun",
+        "shortname": "porirua",
+        "time": "09:00"
+      },
+      "Puarenga parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Puarenga parkrun",
+        "shortname": "puarenga",
+        "time": "09:00"
+      },
+      "Queenstown parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Queenstown parkrun",
+        "shortname": "queenstown",
+        "time": "08:00"
+      },
+      "Taupo parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Taupo parkrun",
+        "shortname": "taupo",
+        "time": "08:00"
+      },
+      "Western Springs parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Western Springs parkrun",
+        "shortname": "westernsprings",
+        "time": "08:00"
+      },
+      "Whangarei parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Whangarei parkrun",
+        "shortname": "whangarei",
+        "time": "08:00"
+      }
     },
     "index": 2
   },
   "New Year's Day": {
     "date": "2019-01-01",
     "events": {
-      "Anderson parkrun": "08:00",
-      "Balclutha parkrun": "09:30",
-      "Cambridge NZ parkrun": "08:00",
-      "Dunedin parkrun": "07:30",
-      "Gisborne parkrun": "09:00",
-      "Hamilton Lake parkrun": "09:30",
-      "Lower Hutt parkrun": "08:00",
-      "Palmerston North parkrun": "09:00",
-      "Pegasus parkrun": "09:30",
-      "Porirua parkrun": "09:30",
-      "Taupo parkrun": "08:00",
-      "Western Springs parkrun": "07:30"
+      "Anderson parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Anderson parkrun",
+        "shortname": "anderson",
+        "time": "08:00"
+      },
+      "Balclutha parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Balclutha parkrun",
+        "shortname": "balclutha",
+        "time": "09:30"
+      },
+      "Cambridge NZ parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Cambridge NZ parkrun",
+        "shortname": "cambridgenz",
+        "time": "08:00"
+      },
+      "Dunedin parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Dunedin parkrun",
+        "shortname": "dunedin",
+        "time": "07:30"
+      },
+      "Gisborne parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Gisborne parkrun",
+        "shortname": "gisborne",
+        "time": "09:00"
+      },
+      "Hamilton Lake parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Hamilton Lake parkrun",
+        "shortname": "hamiltonlake",
+        "time": "09:30"
+      },
+      "Lower Hutt parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Lower Hutt parkrun",
+        "shortname": "lowerhutt",
+        "time": "08:00"
+      },
+      "Palmerston North parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Palmerston North parkrun",
+        "shortname": "palmerstonnorth",
+        "time": "09:00"
+      },
+      "Pegasus parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Pegasus parkrun",
+        "shortname": "pegasus",
+        "time": "09:30"
+      },
+      "Porirua parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Porirua parkrun",
+        "shortname": "porirua",
+        "time": "09:30"
+      },
+      "Taupo parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Taupo parkrun",
+        "shortname": "taupo",
+        "time": "08:00"
+      },
+      "Western Springs parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Western Springs parkrun",
+        "shortname": "westernsprings",
+        "time": "07:30"
+      }
     },
     "index": 3
   }

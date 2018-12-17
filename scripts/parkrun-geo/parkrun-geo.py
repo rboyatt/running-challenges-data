@@ -9,7 +9,7 @@ def parse_events(root):
     events = root.findall('e')
     print(len(events))
 
-    parsed_events = list()
+    parsed_events = dict()
     errored_events = list()
 
     for e in events:
@@ -53,7 +53,7 @@ def parse_events(root):
         if any_errors:
             errored_events.append(parsed_event)
         else:
-            parsed_events.append(parsed_event)
+            parsed_events[parsed_event['name']] = parsed_event
 
     print('{} parsed events'.format(len(parsed_events)))
     print('{} errored events'.format(len(errored_events)))
@@ -131,7 +131,7 @@ def parse_regions(region_list):
 
     return (parsed_regions, countries)
 
-geo_xml_file = '../../data/geo.xml'
+geo_xml_file = '../../data/parkrun-geo/raw/geo.xml'
 tree = ET.parse(geo_xml_file)
 root = tree.getroot()
 
@@ -141,7 +141,7 @@ all_regions = list()
 find_regions_recursively(root, all_regions)
 (parsed_regions, countries) = parse_regions(all_regions)
 
-geo_juniors_xml_file = '../../data/geo-juniors.xml'
+geo_juniors_xml_file = '../../data/parkrun-geo/raw/geo-juniors.xml'
 tree = ET.parse(geo_juniors_xml_file)
 parsed_2k_events = parse_events(tree.getroot())
 
@@ -152,7 +152,7 @@ geo_data = {
     'events_2k': parsed_2k_events
 }
 
-with open('../../data/geo.json', 'w') as FH:
-    json.dump(geo_data, FH)
+with open('../../data/parkrun-geo/parsed/geo.json', 'w') as FH:
+    json.dump(geo_data, FH, sort_keys=True, indent=2)
 
 print(json.dumps(geo_data, sort_keys=True, indent=2))

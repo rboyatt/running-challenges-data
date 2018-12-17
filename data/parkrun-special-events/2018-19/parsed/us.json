@@ -2,34 +2,166 @@
   "New Year's Day": {
     "date": "2019-01-01",
     "events": {
-      "Clermont Waterfront parkrun": "07:30",
-      "College Park parkrun": "10:30",
-      "Depot Park parkrun": "09:00",
-      "Durham NC parkrun": "09:30",
-      "Eagan parkrun": "09:00",
-      "Fletcher's Cove parkrun": "10:30",
-      "Himmel parkrun": "09:00",
-      "Jamaica Pond parkrun": "10:00",
-      "Kensington parkrun": "08:30",
-      "Leakin Park parkrun": "08:30",
-      "Lillie parkrun, Ann Arbor": "10:30",
-      "Livonia parkrun": "08:30",
-      "Moberly parkrun": "09:00",
-      "Renton parkrun": "10:00"
+      "Clermont Waterfront parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Clermont Waterfront parkrun",
+        "shortname": "clermontwaterfront",
+        "time": "07:30"
+      },
+      "College Park parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "College Park parkrun",
+        "shortname": "collegepark",
+        "time": "10:30"
+      },
+      "Depot Park parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Depot Park parkrun",
+        "shortname": "depotpark",
+        "time": "09:00"
+      },
+      "Durham NC parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Durham NC parkrun",
+        "shortname": "durhamnc",
+        "time": "09:30"
+      },
+      "Eagan parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Eagan parkrun",
+        "shortname": "eagan",
+        "time": "09:00"
+      },
+      "Fletcher's Cove parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Fletcher's Cove parkrun",
+        "shortname": "fletcherscove",
+        "time": "10:30"
+      },
+      "Himmel parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Himmel parkrun",
+        "shortname": "himmel",
+        "time": "09:00"
+      },
+      "Jamaica Pond parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Jamaica Pond parkrun",
+        "shortname": "jamaicapond",
+        "time": "10:00"
+      },
+      "Kensington parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Kensington parkrun",
+        "shortname": "kensington",
+        "time": "08:30"
+      },
+      "Leakin Park parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Leakin Park parkrun",
+        "shortname": "leakinpark",
+        "time": "08:30"
+      },
+      "Lillie parkrun, Ann Arbor": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Lillie parkrun, Ann Arbor",
+        "shortname": "lillie",
+        "time": "10:30"
+      },
+      "Livonia parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Livonia parkrun",
+        "shortname": "livonia",
+        "time": "08:30"
+      },
+      "Moberly parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Moberly parkrun",
+        "shortname": "moberly",
+        "time": "09:00"
+      },
+      "Renton parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Renton parkrun",
+        "shortname": "renton",
+        "time": "10:00"
+      }
     },
     "index": 2
   },
   "Thanksgiving": {
     "date": "2018-11-22",
     "events": {
-      "Clermont Waterfront parkrun": "07:30",
-      "College Park parkrun": "09:00",
-      "Delaware and Raritan Canal parkrun": "09:00",
-      "Eagan parkrun": "09:00",
-      "Jamaica Pond parkrun": "09:00",
-      "Kensington parkrun": "09:00",
-      "Livonia parkrun": "10:00",
-      "Mountain Goat Trail parkrun": "09:00"
+      "Clermont Waterfront parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Clermont Waterfront parkrun",
+        "shortname": "clermontwaterfront",
+        "time": "07:30"
+      },
+      "College Park parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "College Park parkrun",
+        "shortname": "collegepark",
+        "time": "09:00"
+      },
+      "Delaware and Raritan Canal parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Delaware and Raritan Canal parkrun",
+        "shortname": "delawareandraritancanal",
+        "time": "09:00"
+      },
+      "Eagan parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Eagan parkrun",
+        "shortname": "eagan",
+        "time": "09:00"
+      },
+      "Jamaica Pond parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Jamaica Pond parkrun",
+        "shortname": "jamaicapond",
+        "time": "09:00"
+      },
+      "Kensington parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Kensington parkrun",
+        "shortname": "kensington",
+        "time": "09:00"
+      },
+      "Livonia parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Livonia parkrun",
+        "shortname": "livonia",
+        "time": "10:00"
+      },
+      "Mountain Goat Trail parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Mountain Goat Trail parkrun",
+        "shortname": "mountaingoattrail",
+        "time": "09:00"
+      }
     },
     "index": 3
   }

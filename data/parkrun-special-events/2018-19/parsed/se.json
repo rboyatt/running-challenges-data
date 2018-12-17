@@ -2,7 +2,13 @@
   "New Year's Day": {
     "date": "2019-01-01",
     "events": {
-      "Malm\u00f6 Ribersborg parkrun": "11:00"
+      "Malm\u00f6 Ribersborg parkrun": {
+        "country_code": "se",
+        "country_domain": "www.parkrun.se",
+        "longname": "Malm\u00f6 Ribersborg parkrun",
+        "shortname": "malmoribersborg",
+        "time": "11:00"
+      }
     },
     "index": 2
   }

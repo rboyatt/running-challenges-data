@@ -2,13 +2,55 @@
   "New Year's Day": {
     "date": "2019-01-01",
     "events": {
-      "Kanata parkrun, Ottawa": "09:00",
-      "Meadowvale parkrun": "10:30",
-      "Nose Hill parkrun": "10:00",
-      "Okanagan parkrun": "09:00",
-      "Richmond Olympic parkrun": "10:30",
-      "River Oaks parkrun": "09:00",
-      "Whitby parkrun": "09:00"
+      "Kanata parkrun, Ottawa": {
+        "country_code": "ca",
+        "country_domain": "www.parkrun.ca",
+        "longname": "Kanata parkrun, Ottawa",
+        "shortname": "kanata",
+        "time": "09:00"
+      },
+      "Meadowvale parkrun": {
+        "country_code": "ca",
+        "country_domain": "www.parkrun.ca",
+        "longname": "Meadowvale parkrun",
+        "shortname": "meadowvale",
+        "time": "10:30"
+      },
+      "Nose Hill parkrun": {
+        "country_code": "ca",
+        "country_domain": "www.parkrun.ca",
+        "longname": "Nose Hill parkrun",
+        "shortname": "nosehill",
+        "time": "10:00"
+      },
+      "Okanagan parkrun": {
+        "country_code": "ca",
+        "country_domain": "www.parkrun.ca",
+        "longname": "Okanagan parkrun",
+        "shortname": "okanagan",
+        "time": "09:00"
+      },
+      "Richmond Olympic parkrun": {
+        "country_code": "ca",
+        "country_domain": "www.parkrun.ca",
+        "longname": "Richmond Olympic parkrun",
+        "shortname": "richmondolympic",
+        "time": "10:30"
+      },
+      "River Oaks parkrun": {
+        "country_code": "ca",
+        "country_domain": "www.parkrun.ca",
+        "longname": "River Oaks parkrun",
+        "shortname": "riveroaks",
+        "time": "09:00"
+      },
+      "Whitby parkrun": {
+        "country_code": "ca",
+        "country_domain": "www.parkrun.ca",
+        "longname": "Whitby parkrun",
+        "shortname": "whitby",
+        "time": "09:00"
+      }
     },
     "index": 2
   }

@@ -5,7 +5,7 @@ import os
 
 from bs4 import BeautifulSoup
 
-def parse_special_events_table(table, dates):
+def parse_special_events_table(table, country_code, dates):
     special_events = dict()
 
     table_rows = table.find_all('tr')
@@ -37,14 +37,32 @@ def parse_special_events_table(table, dates):
         content_rows = table_rows[1:]
         print('{} content rows found'.format(len(content_rows)))
         for r in content_rows:
+            event_info = {
+                'longname': None,
+                'shortname': None,
+                'country_domain': None,
+                'country_code': country_code
+            }
             cells = r.find_all('td')
-            event = cells[column_map['Event']].get_text().strip()
+            event_info['longname'] = cells[column_map['Event']].get_text().strip()
+            event_url = cells[column_map['Event']].find('a')
+            if event_url is not None:
+                event_full_http_url = event_url['href']
+                parts = event_full_http_url.split('/')
+                event_info['country_domain'] = parts[2]
+                event_info['shortname'] = parts[3]
 
             for special_event_type in event_types.keys():
                 event_time = cells[column_map[special_event_type]].get_text().strip()
-                if len(event_time) > 2:
+                # Create a new object for this event
+                event_time_info = {
+                    'time': event_time
+                }
+                # Merge in the rest of the details
+                event_time_info.update(event_info)
+                if len(event_time) > 2 and ',' not in event_time :
                     # print('{} @ {}'.format(special_event_type, event_time))
-                    event_types[special_event_type]['events'][event] = event_time
+                    event_types[special_event_type]['events'][event_info['longname']] = event_time_info
 
         # print(event_types)
         # for event_type in event_types:
@@ -95,7 +113,7 @@ for country_code, raw_file_path in input_files.items():
 
     # Assume it is the only table
     if len(main_table) >= 1:
-        special_events = parse_special_events_table(main_table[0], year_details['dates'])
+        special_events = parse_special_events_table(main_table[0], country_code, year_details['dates'])
 
         # Merge this country's special events into the master list
         for event_type, event_details in special_events.items():
