@@ -1,1 +1,2 @@
 # Requirements for parkrun-geo.py
+beautifulsoup4

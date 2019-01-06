@@ -7,17 +7,15 @@ python:
 # env:
 #   - EXTENSION_BUILD_ID=$TRAVIS_BUILD_NUMBER EXTENSION_BUILD_VERSION=$TRAVIS_TAG
 
-# before_script:
-#  - ...
+before_script:
+ - pip install -r scripts/parkrun-geo/requirements.txt
 
 script:
    # Test fetch of the parkrun geo XML & Technical Event Info (both of which get
    # fetched and cached by the background script in the extenion)
    # The wiki page can be slow to load, or missing on occasion, so it would be
    # very useful to cache this away from parkrun's servers.
-   - "curl -H 'user-agent: Mozilla/Firefox' https://www.parkrun.org.uk/wp-content/themes/parkrun/xml/geo.xml"
-   - "curl -H 'user-agent: Mozilla/Firefox' https://www.parkrun.org.uk/wp-content/themes/parkrun/xml/geojuniors.xml"
-   - "curl -H 'user-agent: Mozilla/Firefox' https://wiki.parkrun.com/index.php/Technical_Event_Information"
+   - python scripts/parkrun-geo/parkrun-geo.py
 
 # branch whitelist.
 # For GitHub Pages - if we push code to master the built code goes to gh-pages
