@@ -7,7 +7,7 @@ python:
 # env:
 #   - EXTENSION_BUILD_ID=$TRAVIS_BUILD_NUMBER EXTENSION_BUILD_VERSION=$TRAVIS_TAG
 
-before_script:
+install:
  - pip install -r scripts/parkrun-geo/requirements.txt
 
 script:
@@ -16,6 +16,7 @@ script:
    # The wiki page can be slow to load, or missing on occasion, so it would be
    # very useful to cache this away from parkrun's servers.
    - python scripts/parkrun-geo/parkrun-geo.py
+   - ls -lh
 
 # branch whitelist.
 # For GitHub Pages - if we push code to master the built code goes to gh-pages
