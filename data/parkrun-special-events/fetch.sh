@@ -1,8 +1,12 @@
 #!/bin/bash
 
-YEAR=${1:-"2018-19"}
+YEAR=${1:-"2019-20"}
 
 echo "Fetching files for ${YEAR}"
+
+# Ensure we have a directory for the raw data and parsed data
+mkdir -p ${YEAR}/raw/
+mkdir -p ${YEAR}/parsed/
 
 # All the special events pages, as listed at
 # https://www.parkrun.com/christmas-and-new-year/
