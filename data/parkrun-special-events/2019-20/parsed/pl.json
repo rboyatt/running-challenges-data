@@ -1,0 +1,35 @@
+{
+  "Boxing Day": {
+    "date": "2019-12-26",
+    "events": {
+      "parkrun Kedzierzyn-Kozle": {
+        "country_code": "pl",
+        "country_domain": "www.parkrun.pl",
+        "longname": "parkrun Kedzierzyn-Kozle",
+        "shortname": "kedzierzyn-kozle",
+        "time": "09:00"
+      },
+      "parkrun Warszawa-Ursynow": {
+        "country_code": "pl",
+        "country_domain": "www.parkrun.pl",
+        "longname": "parkrun Warszawa-Ursynow",
+        "shortname": "warszawa-ursynow",
+        "time": "09:00"
+      }
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2020-01-01",
+    "events": {
+      "parkrun Kedzierzyn-Kozle": {
+        "country_code": "pl",
+        "country_domain": "www.parkrun.pl",
+        "longname": "parkrun Kedzierzyn-Kozle",
+        "shortname": "kedzierzyn-kozle",
+        "time": "10:00"
+      }
+    },
+    "index": 3
+  }
+}

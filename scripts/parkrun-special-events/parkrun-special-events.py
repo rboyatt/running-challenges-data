@@ -86,37 +86,44 @@ def parse_special_events_table(table, country_code, special_events_data, year):
 special_events_data = {
     'Thanksgiving': {
         'dates': {
-            '2018-19': '2018-11-22'
+            '2018-19': '2018-11-22',
+            '2019-20': '2018-11-28'
         }
     },
     'Christmas Eve': {
         'dates': {
-            '2018-19': '2018-12-24'
+            '2018-19': '2018-12-24',
+            '2019-20': '2019-12-24'
         }
     },
     'Christmas Day': {
         'dates': {
-            '2018-19': '2018-12-25'
+            '2018-19': '2018-12-25',
+            '2019-20': '2019-12-25'
         }
     },
     'Boxing Day': {
         'dates': {
-            '2018-19': '2018-12-26'
+            '2018-19': '2018-12-26',
+            '2019-20': '2019-12-26'
         }
     },
     'New Year\'s Day': {
         'dates': {
-            '2018-19': '2019-01-01'
+            '2018-19': '2019-01-01',
+            '2019-20': '2020-01-01'
         }
     },
     'Orthodox Christmas': {
         'dates': {
-            '2018-19': '2019-01-07'
+            '2018-19': '2019-01-07',
+            '2019-20': '2020-01-07'
         }
     },
     'Chinese New Year': {
         'dates': {
-            '2018-19': '2019-02-05'
+            '2018-19': '2019-02-05',
+            '2019-20': '2020-01-20'
         }
     },
     'translations': {
@@ -162,7 +169,7 @@ special_events_data = {
 }
 
 # Make this a parameter at some point, but for now, it's hardcoded
-this_year = '2018-19'
+this_year = '2019-20'
 
 input_files = dict()
 # Load the entire page, in all its messy glory

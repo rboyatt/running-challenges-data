@@ -1,0 +1,196 @@
+{
+  "New Year's Day": {
+    "date": "2020-01-01",
+    "events": {
+      "Clermont Waterfront parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Clermont Waterfront parkrun",
+        "shortname": "clermontwaterfront",
+        "time": "09:00"
+      },
+      "College Park parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "College Park parkrun",
+        "shortname": "collegepark",
+        "time": "10:30"
+      },
+      "Durham NC parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Durham NC parkrun",
+        "shortname": "durhamnc",
+        "time": "09:30"
+      },
+      "Fletcher's Cove parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Fletcher's Cove parkrun",
+        "shortname": "fletcherscove",
+        "time": "10:30"
+      },
+      "Himmel parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Himmel parkrun",
+        "shortname": "himmel",
+        "time": "09:00"
+      },
+      "Jamaica Pond parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Jamaica Pond parkrun",
+        "shortname": "jamaicapond",
+        "time": "10:00"
+      },
+      "Kensington parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Kensington parkrun",
+        "shortname": "kensington",
+        "time": "08:30"
+      },
+      "Lillie parkrun, Ann Arbor": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Lillie parkrun, Ann Arbor",
+        "shortname": "lillie",
+        "time": "10:30"
+      },
+      "Livonia parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Livonia parkrun",
+        "shortname": "livonia",
+        "time": "08:30"
+      },
+      "Oak Grove parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Oak Grove parkrun",
+        "shortname": "oakgrove",
+        "time": "10:00"
+      },
+      "Perrigo parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Perrigo parkrun",
+        "shortname": "perrigo",
+        "time": "08:30"
+      },
+      "Rec Plex North parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Rec Plex North parkrun",
+        "shortname": "recplexnorth",
+        "time": "07:30"
+      },
+      "Renton parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Renton parkrun",
+        "shortname": "renton",
+        "time": "10:30"
+      },
+      "South Boulder Creek parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "South Boulder Creek parkrun",
+        "shortname": "southbouldercreek",
+        "time": "10:30"
+      }
+    },
+    "index": 3
+  },
+  "Thanksgiving": {
+    "date": "2018-11-28",
+    "events": {
+      "Clermont Waterfront parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Clermont Waterfront parkrun",
+        "shortname": "clermontwaterfront",
+        "time": "07:30"
+      },
+      "College Park parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "College Park parkrun",
+        "shortname": "collegepark",
+        "time": "09:00"
+      },
+      "Delaware and Raritan Canal parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Delaware and Raritan Canal parkrun",
+        "shortname": "delawareandraritancanal",
+        "time": "09:00"
+      },
+      "Eagan parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Eagan parkrun",
+        "shortname": "eagan",
+        "time": "09:00"
+      },
+      "Jamaica Pond parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Jamaica Pond parkrun",
+        "shortname": "jamaicapond",
+        "time": "09:00"
+      },
+      "Kensington parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Kensington parkrun",
+        "shortname": "kensington",
+        "time": "09:00"
+      },
+      "Lillie parkrun, Ann Arbor": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Lillie parkrun, Ann Arbor",
+        "shortname": "lillie",
+        "time": "09:00"
+      },
+      "Livonia parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Livonia parkrun",
+        "shortname": "livonia",
+        "time": "09:00"
+      },
+      "Oak Grove parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Oak Grove parkrun",
+        "shortname": "oakgrove",
+        "time": "09:00"
+      },
+      "Perrigo parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Perrigo parkrun",
+        "shortname": "perrigo",
+        "time": "09:00"
+      },
+      "Rec Plex North parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Rec Plex North parkrun",
+        "shortname": "recplexnorth",
+        "time": "07:30"
+      },
+      "Terry Hershey parkrun": {
+        "country_code": "us",
+        "country_domain": "www.parkrun.us",
+        "longname": "Terry Hershey parkrun",
+        "shortname": "terryhershey",
+        "time": "09:00"
+      }
+    },
+    "index": 2
+  }
+}

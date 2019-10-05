@@ -1,0 +1,91 @@
+{
+  "Christmas Day": {
+    "date": "2019-12-25",
+    "events": {
+      "Anderson parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Anderson parkrun",
+        "shortname": "anderson",
+        "time": "08:00"
+      },
+      "Flaxmere parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Flaxmere parkrun",
+        "shortname": "flaxmere",
+        "time": "08:00"
+      },
+      "Gisborne parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Gisborne parkrun",
+        "shortname": "gisborne",
+        "time": "08:00"
+      },
+      "Greytown Woodside Trail parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Greytown Woodside Trail parkrun",
+        "shortname": "greytownwoodsidetrail",
+        "time": "08:00"
+      },
+      "Hobsonville Point parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Hobsonville Point parkrun",
+        "shortname": "hobsonvillepoint",
+        "time": "08:00"
+      },
+      "Pegasus parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Pegasus parkrun",
+        "shortname": "pegasus",
+        "time": "08:00"
+      },
+      "Whangarei parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Whangarei parkrun",
+        "shortname": "whangarei",
+        "time": "08:00"
+      }
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2020-01-01",
+    "events": {
+      "Anderson parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Anderson parkrun",
+        "shortname": "anderson",
+        "time": "08:00"
+      },
+      "Flaxmere parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Flaxmere parkrun",
+        "shortname": "flaxmere",
+        "time": "09:30"
+      },
+      "Gisborne parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Gisborne parkrun",
+        "shortname": "gisborne",
+        "time": "09:00"
+      },
+      "Hobsonville Point parkrun": {
+        "country_code": "nz",
+        "country_domain": "www.parkrun.co.nz",
+        "longname": "Hobsonville Point parkrun",
+        "shortname": "hobsonvillepoint",
+        "time": "09:30"
+      }
+    },
+    "index": 3
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "Christmas Day": {
+    "date": "2019-12-25",
+    "events": {
+      "Bronberrik parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Bronberrik parkrun",
+        "shortname": "bronberrik",
+        "time": "08:00"
+      },
+      "Delta parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Delta parkrun",
+        "shortname": "delta",
+        "time": "08:00"
+      },
+      "Kimberley parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Kimberley parkrun",
+        "shortname": "kimberley",
+        "time": "07:00"
+      },
+      "Koster parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Koster parkrun",
+        "shortname": "koster",
+        "time": "07:00"
+      },
+      "Mogol parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Mogol parkrun",
+        "shortname": "mogol",
+        "time": "07:00"
+      }
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2020-01-01",
+    "events": {
+      "Bellville parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Bellville parkrun",
+        "shortname": "bellville",
+        "time": "08:00"
+      },
+      "Bryanston parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Bryanston parkrun",
+        "shortname": "bryanston",
+        "time": "07:30"
+      },
+      "Delta parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Delta parkrun",
+        "shortname": "delta",
+        "time": "09:30"
+      },
+      "Harkerville parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Harkerville parkrun",
+        "shortname": "harkerville",
+        "time": "09:00"
+      },
+      "Kimberley parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Kimberley parkrun",
+        "shortname": "kimberley",
+        "time": "07:00"
+      },
+      "Koster parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Koster parkrun",
+        "shortname": "koster",
+        "time": "08:30"
+      },
+      "Mogol parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Mogol parkrun",
+        "shortname": "mogol",
+        "time": "07:00"
+      },
+      "Sterkfontein parkrun": {
+        "country_code": "za",
+        "country_domain": "www.parkrun.co.za",
+        "longname": "Sterkfontein parkrun",
+        "shortname": "sterkfontein",
+        "time": "07:30"
+      }
+    },
+    "index": 3
+  }
+}
