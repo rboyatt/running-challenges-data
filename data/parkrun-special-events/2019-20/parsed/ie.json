@@ -1,0 +1,56 @@
+{
+  "Christmas Day": {
+    "date": "2019-12-25",
+    "events": {
+      "Clonmel parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Clonmel parkrun",
+        "shortname": "clonmel",
+        "time": "09:30"
+      },
+      "Malahide parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Malahide parkrun",
+        "shortname": "malahide",
+        "time": "09:30"
+      },
+      "Tralee parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Tralee parkrun",
+        "shortname": "tralee",
+        "time": "09:30"
+      }
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2020-01-01",
+    "events": {
+      "Clonmel parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Clonmel parkrun",
+        "shortname": "clonmel",
+        "time": "11:00"
+      },
+      "Listowel parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Listowel parkrun",
+        "shortname": "listowel",
+        "time": "09:00"
+      },
+      "Tralee parkrun": {
+        "country_code": "ie",
+        "country_domain": "www.parkrun.ie",
+        "longname": "Tralee parkrun",
+        "shortname": "tralee",
+        "time": "11:00"
+      }
+    },
+    "index": 3
+  }
+}

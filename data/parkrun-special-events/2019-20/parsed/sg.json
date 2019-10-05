@@ -1,0 +1,29 @@
+{
+  "Chinese New Year": {
+    "date": "2020-01-20",
+    "events": {
+      "Bishan parkrun": {
+        "country_code": "sg",
+        "country_domain": "www.parkrun.sg",
+        "longname": "Bishan parkrun",
+        "shortname": "bishan",
+        "time": "07:30"
+      },
+      "East Coast Park parkrun": {
+        "country_code": "sg",
+        "country_domain": "www.parkrun.sg",
+        "longname": "East Coast Park parkrun",
+        "shortname": "eastcoastpark",
+        "time": "07:30"
+      },
+      "West Coast Park parkrun": {
+        "country_code": "sg",
+        "country_domain": "www.parkrun.sg",
+        "longname": "West Coast Park parkrun",
+        "shortname": "westcoastpark",
+        "time": "07:30"
+      }
+    },
+    "index": 2
+  }
+}

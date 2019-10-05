@@ -1,0 +1,230 @@
+{
+  "New Year's Day": {
+    "date": "2020-01-01",
+    "events": {},
+    "index": 2
+  },
+  "Orthodox Christmas": {
+    "date": "2020-01-07",
+    "events": {
+      "parkrun Butovo": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Butovo",
+        "shortname": "butovo",
+        "time": "09:00"
+      },
+      "parkrun Cheboksary naberezhnaya": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Cheboksary naberezhnaya",
+        "shortname": "cheboksarynaberezhnaya",
+        "time": "10:00"
+      },
+      "parkrun Chelyabinsk": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Chelyabinsk",
+        "shortname": "chelyabinsk",
+        "time": "09:00"
+      },
+      "parkrun Dolgoprudny": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Dolgoprudny",
+        "shortname": "dolgoprudny",
+        "time": "10:00"
+      },
+      "parkrun Ekaterinburg Zelenaya Roscha": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Ekaterinburg Zelenaya Roscha",
+        "shortname": "ekaterinburgzelenayaroscha",
+        "time": "10:00"
+      },
+      "parkrun Elagin Ostrov": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Elagin Ostrov",
+        "shortname": "elaginostrov",
+        "time": "10:00"
+      },
+      "parkrun Khimki": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Khimki",
+        "shortname": "khimki",
+        "time": "10:00"
+      },
+      "parkrun Kimry": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Kimry",
+        "shortname": "kimry",
+        "time": "09:00"
+      },
+      "parkrun Kolomenskoe": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Kolomenskoe",
+        "shortname": "kolomenskoe",
+        "time": "10:00"
+      },
+      "parkrun Kolpino": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Kolpino",
+        "shortname": "kolpino",
+        "time": "10:00"
+      },
+      "parkrun Krylatskoe": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Krylatskoe",
+        "shortname": "krylatskoe",
+        "time": "09:00"
+      },
+      "parkrun Kuzminki": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Kuzminki",
+        "shortname": "kuzminki",
+        "time": "09:00"
+      },
+      "parkrun Mega Park Kudrovo": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Mega Park Kudrovo",
+        "shortname": "megaparkkudrovo",
+        "time": "09:30"
+      },
+      "parkrun Meshchersky": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Meshchersky",
+        "shortname": "meshchersky",
+        "time": "09:00"
+      },
+      "parkrun Natashinsky": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Natashinsky",
+        "shortname": "natashinsky",
+        "time": "10:00"
+      },
+      "parkrun Olimpiyskaya Derevnya": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Olimpiyskaya Derevnya",
+        "shortname": "olimpiyskayaderevnya",
+        "time": "09:00"
+      },
+      "parkrun Pavlovsky Posad": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Pavlovsky Posad",
+        "shortname": "pavlovskyposad",
+        "time": "09:00"
+      },
+      "parkrun Perm Balatovo": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Perm Balatovo",
+        "shortname": "permbalatovo",
+        "time": "10:00"
+      },
+      "parkrun Petergof Aleksandriysky": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Petergof Aleksandriysky",
+        "shortname": "petergofaleksandriysky",
+        "time": "10:00"
+      },
+      "parkrun Pushkin": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Pushkin",
+        "shortname": "pushkin",
+        "time": "10:00"
+      },
+      "parkrun Samara Park Gagarina": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Samara Park Gagarina",
+        "shortname": "samaraparkgagarina",
+        "time": "10:00"
+      },
+      "parkrun Severnoe Tushino": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Severnoe Tushino",
+        "shortname": "severnoetushino",
+        "time": "09:00"
+      },
+      "parkrun Shuvalovsky Park": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Shuvalovsky Park",
+        "shortname": "shuvalovskypark",
+        "time": "10:00"
+      },
+      "parkrun Sosnovka": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Sosnovka",
+        "shortname": "sosnovka",
+        "time": "09:00"
+      },
+      "parkrun Timiryazevsky": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Timiryazevsky",
+        "shortname": "timiryazevsky",
+        "time": "10:00"
+      },
+      "parkrun Vernadskogo": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Vernadskogo",
+        "shortname": "vernadskogo",
+        "time": "10:00"
+      },
+      "parkrun Volgograd Panorama": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Volgograd Panorama",
+        "shortname": "volgogradpanorama",
+        "time": "10:00"
+      },
+      "parkrun Voronezh Central Park": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Voronezh Central Park",
+        "shortname": "voronezhcentralpark",
+        "time": "10:00"
+      },
+      "parkrun Yakutsk Dokhsun": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Yakutsk Dokhsun",
+        "shortname": "yakutskdokhsun",
+        "time": "09:00"
+      },
+      "parkrun Zelenograd": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Zelenograd",
+        "shortname": "zelenograd",
+        "time": "10:00"
+      },
+      "parkrun Zhukovsky": {
+        "country_code": "ru",
+        "country_domain": "www.parkrun.ru",
+        "longname": "parkrun Zhukovsky",
+        "shortname": "zhukovsky",
+        "time": "09:00"
+      }
+    },
+    "index": 3
+  }
+}

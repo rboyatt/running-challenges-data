@@ -1,0 +1,20 @@
+{
+  "Boxing Day": {
+    "date": "2019-12-26",
+    "events": {
+      "parkrun Warszawa-Ursynow": {
+        "country_code": "pl",
+        "country_domain": "www.parkrun.pl",
+        "longname": "parkrun Warszawa-Ursynow",
+        "shortname": "warszawa-ursynow",
+        "time": "09:00"
+      }
+    },
+    "index": 2
+  },
+  "New Year's Day": {
+    "date": "2020-01-01",
+    "events": {},
+    "index": 3
+  }
+}

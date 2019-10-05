@@ -1,0 +1,104 @@
+{
+  "New Year's Day": {
+    "date": "2020-01-01",
+    "events": {},
+    "index": 2
+  },
+  "Tag der Deutschen Einheit": {
+    "date": null,
+    "events": {
+      "Georgengarten parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Georgengarten parkrun",
+        "shortname": "georgengarten",
+        "time": "09:00"
+      },
+      "Hasenheide parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Hasenheide parkrun",
+        "shortname": "hasenheide",
+        "time": "09:00"
+      },
+      "K\u00fcchenholz parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "K\u00fcchenholz parkrun",
+        "shortname": "kuechenholz",
+        "time": "09:00"
+      },
+      "Leinpfad parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Leinpfad parkrun",
+        "shortname": "leinpfad",
+        "time": "09:00"
+      },
+      "Neckarau parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Neckarau parkrun",
+        "shortname": "neckarau",
+        "time": "09:00"
+      },
+      "Neckarufer parkrun, Esslingen": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Neckarufer parkrun, Esslingen",
+        "shortname": "neckaruferesslingen",
+        "time": "09:00"
+      },
+      "Riemer parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Riemer parkrun",
+        "shortname": "riemer",
+        "time": "09:00"
+      },
+      "Rubbenbruchsee parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Rubbenbruchsee parkrun",
+        "shortname": "rubbenbruchsee",
+        "time": "09:00"
+      },
+      "Schwanenteich parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Schwanenteich parkrun",
+        "shortname": "schwanenteich",
+        "time": "09:00"
+      },
+      "Seewoog parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Seewoog parkrun",
+        "shortname": "seewoog",
+        "time": "09:00"
+      },
+      "Unisee parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Unisee parkrun",
+        "shortname": "unisee",
+        "time": "09:00"
+      },
+      "Volksgarten parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Volksgarten parkrun",
+        "shortname": "volksgarten",
+        "time": "09:00"
+      },
+      "Westpark parkrun": {
+        "country_code": "de",
+        "country_domain": "www.parkrun.com.de",
+        "longname": "Westpark parkrun",
+        "shortname": "westpark",
+        "time": "09:00"
+      }
+    },
+    "index": 3
+  }
+}
